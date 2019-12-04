@@ -10,7 +10,7 @@ body {
     padding: 10px 0;
     top: 0;
     width: 95%;
-    height: 115px;
+    height: 105px;
     justify-content: space-around;
     background: url('./images/starfield-banner.jpg');
     z-index: 99;
@@ -42,7 +42,7 @@ body {
 
 a {
     text-decoration: none;
-    color: #ffffff;
+    color: #a1a1a1;
 }
 
 .nav-line1 {
@@ -55,9 +55,10 @@ a {
 .nav-line2 {
     margin-bottom: 0;
     text-align: center;
-    font-size: 15px;
+    font-size: 12px;
     font-weight: 200;
-    background-color: #555555;
+    color: #424242df;
+    background-color: #616060;
 }
 
 .nav-line1 li::after {
@@ -66,15 +67,16 @@ a {
     height: 47px;
     bottom: -13px;
     right: -12px;
-    border-right: 1px solid #434343;
+    border-right: 1px solid #494949;
 }
 
 .nav-line2 li::after {
     content: "";
     position: absolute;
-    height: 25px;
+    height: 23px;
     right: -12px;
-    border-right: 1px solid #6a6a6a;
+    bottom: -5px;
+    border-right: 1px solid #a1a1a1;
 }
 
 .navigation ul li:last-child::after {
@@ -115,7 +117,7 @@ a {
 }
 
 .content {
-    padding-top: 150px;
+    padding-top: 125px;
 }
 
 .content .top {
