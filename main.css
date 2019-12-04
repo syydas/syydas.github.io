@@ -157,6 +157,7 @@ a {
 
 .top-left {
     position: relative;
+    width: calc(50% - 10px);
     display: flex;
     flex-wrap: wrap;
 }
