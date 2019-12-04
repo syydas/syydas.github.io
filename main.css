@@ -212,6 +212,7 @@ a {
     position: relative;
     height: 100%;
     width: 25%;
+    margin-right: 10px;
     background-image: url('./images/ssc2017-14a1.jpg');
     background-position: center;
 }
@@ -225,3 +226,12 @@ a {
     background-image: url('./images/camera.svg');
     background-size: cover;
 }
+
+.asteroids {
+    position: relative;
+    height: 100%;
+    width: 48%;
+    margin-right: 10px;
+    background-image: url('./images/pia22556-16.gif');
+}
+
