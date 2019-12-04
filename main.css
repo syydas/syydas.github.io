@@ -157,20 +157,21 @@ a {
     float: right;
     display: flex;
     width: 50%;
+    flex-wrap: wrap;
 }
 
 .climate {
     position: relative;
     margin-right: 10px;
-    height: 50%;
-    width: 50%;
+    height: 49%;
+    width: 49%;
     background-image: url('./images/mollweide_cycle.jpg');
     background-size: cover;
 }
 
 .nasa-event {
-    width: 50%;
-    height: 50%;
+    width: 49%;
+    height: 49%;
     font-size: 10px;
     color: #cececedf;
     background-color: #4d7197;
@@ -191,4 +192,14 @@ a {
 
 .event-footer span {
     padding: 0 15px;
+}
+
+.rocket {
+    position: relative;
+    width: 100%;
+    height: 49%;
+    margin-top: 10px;
+    background-image: url('./images/s69-39961.jpg');
+    background-size: cover;
+
 }
