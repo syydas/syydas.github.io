@@ -119,13 +119,12 @@ a {
 
 .content .top {
     display: flex;
-    height: 600px;
+    height: 650px;
 }
 
-.dawn {
+.top-right {
     position: relative;
     width: 50%;
-    height: 650px;
     margin-right: 10px;
     background-image: url('./images/pia21924-16.jpg');
     background-size: cover;
@@ -149,5 +148,20 @@ a {
     padding: 5px 10px;
     font-size: 16px;
     font-weight: 550;
-    background-color: #d1d1d1;
+    background-color: rgba(172, 164, 164, 0.7);
+}
+
+.top-left {
+    float: right;
+    display: flex;
+    width: 50%;
+}
+
+.climate {
+    position: relative;
+    margin-right: 10px;
+    height: 50%;
+    width: 50%;
+    background-image: url('./images/mollweide_cycle.jpg');
+    background-size: cover;
 }
