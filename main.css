@@ -211,6 +211,7 @@ a {
     height: 320px;
     width: 100%;
     margin-top: 10px;
+    justify-content: space-between;
 }
 
 .day-img {
