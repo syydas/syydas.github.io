@@ -156,7 +156,6 @@ a {
 .top-left {
     float: right;
     display: flex;
-    width: 50%;
     flex-wrap: wrap;
 }
 
@@ -201,5 +200,18 @@ a {
     margin-top: 10px;
     background-image: url('./images/s69-39961.jpg');
     background-size: cover;
+}
 
+.middle {
+    display: flex;
+    height: 320px;
+    width: 100%;
+}
+
+.day-img {
+    position: relative;
+    height: 100%;
+    width: 25%;
+    background-image: url('./images/ssc2017-14a1.jpg');
+    background-position: center;
 }
