@@ -10,6 +10,7 @@ body {
     width: 95%;
     height: 115px;
     background: url('./images/starfield-banner.jpg');
+    z-index: 99;
 }
 
 .header .logo-link {
@@ -51,8 +52,9 @@ a {
 
 .nav-line2 {
     margin-top: 0;
-    font-size: 15px;
     text-align: center;
+    font-size: 15px;
+    font-weight: 200;
     background-color: #555555;
 }
 
@@ -77,4 +79,36 @@ a {
     border-right: none;
 }
 
+.search {
+    position: relative;
+    height: 30px;
+    margin: 11px;
+}
 
+.search input {
+    height: 20px;
+    width: 135px;
+    border: none;
+    padding: 9px;
+    color: #a1a1a1;
+    font-weight: lighter;
+    background-color: #333333;
+}
+
+.search .icon {
+    position: absolute;
+    top: 4px;
+}
+
+.icon-search {
+    right: 1px;
+    width: 28px;
+    height: 28px;
+    background-image: url('./images/search.svg');
+}
+
+.icon-share {
+    width: 28px;
+    height: 28px;
+    background-image: url('./images/share.svg');
+}
