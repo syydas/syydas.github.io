@@ -154,7 +154,7 @@ a {
 }
 
 .top-left {
-    float: right;
+    position: relative;
     display: flex;
     flex-wrap: wrap;
 }
@@ -163,14 +163,14 @@ a {
     position: relative;
     margin-right: 10px;
     height: 49%;
-    width: 49%;
+    width: calc(50% - 5px);
     background-image: url('./images/mollweide_cycle.jpg');
     background-size: cover;
 }
 
 .nasa-event {
-    width: 49%;
     height: 49%;
+    width: calc(50% - 5px);
     font-size: 10px;
     color: #cececedf;
     background-color: #4d7197;
@@ -190,7 +190,7 @@ a {
 }
 
 .event-footer span {
-    padding: 0 15px;
+    padding: 0 20px;
 }
 
 .rocket {
@@ -202,10 +202,12 @@ a {
     background-size: cover;
 }
 
-.middle {
+.middle,
+.bottom {
     display: flex;
     height: 320px;
     width: 100%;
+    margin-top: 10px;
 }
 
 .day-img {
@@ -217,7 +219,7 @@ a {
     background-position: center;
 }
 
-.icon {
+.day-img .icon {
     position: absolute;
     height: 20px;
     width: 20px;
@@ -235,3 +237,19 @@ a {
     background-image: url('./images/pia22556-16.gif');
 }
 
+.video {
+    height: 100%;
+    width: 25%;
+}
+
+.same {
+    position: relative;
+    height: 100%;
+    width: 24%;
+    background-size: cover;
+    background-position: center;
+}
+
+.about-nasa {
+    background-image: url('./images/nasa_logo.png');
+}
