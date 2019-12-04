@@ -5,9 +5,11 @@ body {
 }
 
 .header {
-    background: url('素材/starfield-banner.jpg ');
     position: fixed;
+    display: flex;
     width: 95%;
+    height: 115px;
+    background: url('./images/starfield-banner.jpg');
 }
 
 .header .logo-link {
@@ -17,4 +19,5 @@ body {
 .header .logo {
     width:110px;
     margin:11px;
+    background-image: url('./images/nasa-logo.svg');
 }
