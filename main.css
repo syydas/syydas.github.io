@@ -127,7 +127,7 @@ a {
 
 .top-right {
     position: relative;
-    width: 50%;
+    width: calc(50% - 5px);
     margin-right: 10px;
     background-image: url('./images/pia21924-16.jpg');
     background-size: cover;
@@ -157,7 +157,7 @@ a {
 
 .top-left {
     position: relative;
-    width: calc(50% - 10px);
+    width: calc(50% - 5px);
     display: flex;
     flex-wrap: wrap;
 }
