@@ -125,7 +125,7 @@ a {
     height: 650px;
 }
 
-.top-right {
+.top-left {
     position: relative;
     width: calc(50% - 5px);
     margin-right: 10px;
@@ -155,25 +155,30 @@ a {
     background-color: rgba(172, 164, 164, 0.7);
 }
 
-.top-left {
+.top-right {
     position: relative;
     width: calc(50% - 5px);
+}
+
+.right-top {
     display: flex;
-    flex-wrap: wrap;
+    height: calc(50% - 5px);
+    width: 100%;
 }
 
 .climate {
     position: relative;
     margin-right: 10px;
-    height: 49%;
-    width: calc(50% - 5px);
+    height: 100%;
+    width: 50%;
     background-image: url('./images/mollweide_cycle.jpg');
     background-size: cover;
 }
 
 .nasa-event {
-    height: 49%;
-    width: calc(50% - 5px);
+    position: relative;
+    height: 100%;
+    width: 50%;
     font-size: 10px;
     color: #cececedf;
     background-color: #4d7197;
@@ -199,7 +204,7 @@ a {
 .rocket {
     position: relative;
     width: 100%;
-    height: 49%;
+    height: calc(50% - 5px);
     margin-top: 10px;
     background-image: url('./images/s69-39961.jpg');
     background-size: cover;
@@ -237,7 +242,7 @@ a {
 .asteroids {
     position: relative;
     height: 100%;
-    width: 48%;
+    width: 50%;
     margin-right: 10px;
     background-image: url('./images/pia22556-16.gif');
 }
@@ -247,10 +252,10 @@ a {
     width: 25%;
 }
 
-.same {
+.bottom-layout {
     position: relative;
     height: 100%;
-    width: 24%;
+    width: 25%;
     margin-right: 10px;
     background-size: cover;
     background-position: center;
@@ -300,11 +305,10 @@ a {
 
 .nasa-office img {
     float: left;
-    margin: 5px 5px;
 }
 
-.address {
-    margin-left: 50px;
+.address p {
+    margin: 0;
 }
 
 .detail {
